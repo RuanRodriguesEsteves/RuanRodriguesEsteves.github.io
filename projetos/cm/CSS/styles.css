@@ -1,0 +1,20 @@
+#nav-principal li a{
+    padding: 0px 10px;
+    color: #737373;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#nav-principal li a:hover{
+    color: #b6b6b6;
+    transition: 1s;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+li{
+    list-style: none;
+}
+
+.botao{
+    margin-top: 15px;
+}

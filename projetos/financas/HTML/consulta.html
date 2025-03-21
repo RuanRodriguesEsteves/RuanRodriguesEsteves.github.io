@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Finanças</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JS/app.js"></script>
+</head>
+<body onload="carregaListaDespesas()">
+    <header class="roxo p-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../IMG/logo.png" alt="Logo" style="width: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="consulta.html">Consulta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../../projeto.html">Voltar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="p-5">
+        <div>
+            <h1>Consulta de Despesa</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+                <input class="form-control" type="date" id="data">
+            </div>
+            <div class="col-12 col-md-2 mb-3 mb-md-0">
+                <select class="form-control" id="tipo">
+                    <option value="" selected>Tipo</option>
+                    <option value="Alimentação">Alimentação</option>
+                    <option value="Educação">Educação</option>
+                    <option value="Lazer">Lazer</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Transporte">Transporte</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-3 mb-3 mb-md-0">
+                <input class="form-control" type="text" id="descricao" placeholder="Descrição">
+            </div>
+            <div class="col-12 col-md-2 mb-3 mb-md-0">
+                <input class="form-control" type="number" id="valor" placeholder="Valor">
+            </div>
+            <div class="col-12 col-md-2 mb-3 mb-md-0">
+                <button type="button" class="btn btn-primary w-100" onclick="pesquisarDespesa()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <line x1="16.5" y1="16.5" x2="22" y2="22" stroke="#fff" stroke-width="3" />
+                        <circle cx="11" cy="11" r="6" fill="none" stroke="#fff" stroke-width="3"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody id="listaDespesas">
+                    <!-- Conteúdo dinâmico -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="../JS/jquery.slim.min.js"></script>
+    <script src="../JS/bootstrap-4.5.2.min.js"></script>
+</body>
+</html>

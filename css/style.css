@@ -1,0 +1,49 @@
+header{
+    background-color: #122;
+}
+
+body{
+    background-color: #233;
+}
+footer{
+    background-color: #122;
+}
+
+main{
+    color: #bbb;
+    padding: 15px;
+}
+
+.card{
+    color: #233;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    cursor: pointer;
+    color: #8bb;
+}
+
+.carousel-control-next {
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.carousel-control-prev,
+.carousel-control-next{
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.rodape a{
+    padding: 5px;
+}
+
+.rodape a:hover{
+    background-color: #466;
+    border-radius: 10px;
+  }

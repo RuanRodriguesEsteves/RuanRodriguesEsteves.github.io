@@ -1,0 +1,209 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #fff url(../IMAGENS/fundo.png) repeat-x;
+}
+
+#noticiascidade{
+	background: url(../IMAGENS/logo.png) no-repeat left;
+	height: 66px;
+	text-indent: -3000px;
+	padding-top: 50px;
+}
+
+#pagina{
+	width: 750px;
+	margin: 0px auto;
+}
+
+/*ID TOPO*//*ID TOPO*//*ID TOPO*//*ID TOPO*//*ID TOPO*//*ID TOPO*//*ID TOPO*//*ID TOPO*/
+
+#topo{
+	background: url(../IMAGENS/detalhe-topo.png) no-repeat right;
+	height: 179px;
+}
+
+#topo ul li{
+	float: left;
+	list-style: none;
+	margin-top: 15px;
+}
+
+#topo ul a{
+	background: #900 url(../IMAGENS/divisor.png) no-repeat left center;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 14px;
+}
+
+#topo ul a:hover{
+	color: #000;
+}
+
+#topo ul .primeiro a{
+	background: #900;
+}
+
+#topo ul li .estouaqui{
+
+	background: #700;
+}
+
+/*FIM ID TOPO*//*FIM ID TOPO*//*FIM ID TOPO*//*FIM ID TOPO*//*FIM ID TOPO*//*FIM ID TOPO*/
+
+/*COLUNAS*//*COLUNAS*//*COLUNAS*//*COLUNAS*//*COLUNAS*//*COLUNAS*//*COLUNAS*//*COLUNAS*/
+
+#coluna{
+	margin-top: 60px;
+}
+
+#primario{
+	width: 270px;
+	float: left;
+	margin: 0px 0px 20px 195px;
+}
+
+#primario-duas-colunas{
+	width: 555px;
+	float: left;
+	margin: 0px 0px 20px 195px;
+}
+
+#primario-uma-coluna{
+	width: 735px;
+	margin: 0px auto 25px auto;
+}
+
+
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0px 0px 20px 15px;
+}
+
+		/*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*//*CAIXA*/
+		.caixa{
+			background: url(../IMAGENS/fundo-caixa.png);
+			margin: 5px 0px;
+			padding: 10px;
+		}
+
+		.caixa h3{
+			background: #009;
+			padding: 5px;
+			color: white;
+		}
+		/*FIM CAIXA*//*FIM CAIXA*//*FIM CAIXA*//*FIM CAIXA*//*FIM CAIXA*//*FIM CAIXA*//*FIM CAIXA*/
+
+		/*CAIXA CONTEUDO*//*CAIXA CONTEUDO*//*CAIXA CONTEUDO*//*CAIXA CONTEUDO*//*CAIXA CONTEUDO*/
+		.caixa-conteudo{
+			background: #fff;
+			padding: 5px;
+			margin-top: 5px;
+		}
+
+		.caixa-conteudo ul{
+			list-style: none;
+		}
+
+		.caixa-conteudo ul li{
+			border-bottom: 1px solid #ccc;
+		}
+
+		.caixa-conteudo li a{
+			text-decoration: none;
+		}
+
+		.caixa-conteudo label{
+			cursor: pointer;
+		}
+
+		.caixa-conteudo input{
+			width: 125px;
+			padding: 5px;
+		}
+
+		.caixa-conteudo h5{
+			background: #900;
+			color: #fff;
+			display: inline;
+			padding: 2px;
+			text-transform: uppercase;
+		}
+
+		.lista li{
+			height: 60px;
+		}
+
+		.lista li:hover{
+			background: #ccc;
+		}
+
+		.lista img{
+			float: left;
+			margin: 5px;
+		}
+
+		.lista a h4{
+			text-transform: uppercase;
+			color: #39f;
+			font-size: 13px;
+		}
+
+		.lista a p{
+			color: #000;
+			font-size: 13px;
+		}
+		/*FIM CAIXA CONTEUDO*//*FIM CAIXA CONTEUDO*//*FIM CAIXA CONTEUDO*//*FIM CAIXA CONTEUDO*/
+
+		/*LATERAL*//*LATERAL*//*LATERAL*//*LATERAL*//*LATERAL*//*LATERAL*//*LATERAL*/
+		#lateral{
+			width: 180px;
+			float: left;
+			margin: 0px 0px 20px -750px;
+		}
+
+		#lateral .caixa-conteudo li a{
+			color: black;
+			line-height: 35px;
+		}
+
+		#lateral .caixa-conteudo li:hover{
+			padding-left: 25px;
+			color: gray;
+			background: #ccc url(../IMAGENS/marcador.png) no-repeat left center;
+			cursor: pointer;
+		}
+		/*FIM LATERAL*//*FIM LATERAL*//*FIM LATERAL*//*FIM LATERAL*//*FIM LATERAL*/
+
+.imagem{
+	width: 98%;
+	border: 3px solid #aaa;
+}
+
+.submit{
+	background: #900;
+	cursor: pointer;
+	color: white;
+}
+
+/*FIM COLUNAS*//*FIM COLUNAS*//*FIM COLUNAS*//*FIM COLUNAS*//*FIM COLUNAS*//*FIM COLUNAS*/
+
+/*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*//*RODAPE*/
+
+#rodape{
+	background: #009;
+}
+
+#conteudorodape{
+	margin: 0px auto;
+	width: 750px;
+	padding: 15px;
+	color: white;
+}
+
+/*FIM RODAPE*//*FIM RODAPE*//*FIM RODAPE*//*FIM RODAPE*//*FIM RODAPE*//*FIM RODAPE*//*FIM RODAPE*/

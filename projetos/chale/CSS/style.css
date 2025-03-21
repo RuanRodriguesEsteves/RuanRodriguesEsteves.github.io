@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 15px; 
+	background: url(../IMAGENS/bg.png);
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+#container{
+	margin: 0px auto;
+	max-width: 1180px;
+	min-width: 740px;
+	background: url(../IMAGENS/bg-container.png) top center repeat-y;
+}
+
+#topo{
+	height: 250px;
+	min-height: 250px;
+	position: relative;
+}
+
+#area-logo{
+	width: 100%;
+	position: absolute;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+	background: url(../IMAGENS/topo-imagem-principal.png) no-repeat;
+	z-index: 1;
+}
+
+#area-menu{
+	position: absolute;
+	width: 450px;
+	height: 250px;
+	top: 0px;
+	right: 0px;
+	background: url(../IMAGENS/topo-imagem-lateral.png) no-repeat;
+	z-index: 2;
+}
+
+.logo a{
+	background: url(../IMAGENS/logo.png) no-repeat;
+	z-index: 3;
+	height: 66px;
+	width: 151px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	text-indent: -3000px;
+}
+
+#conteudo-menu{
+	margin-left: 100px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+
+#menu-locais{
+	border-top: 1px solid #ba5;
+	border-bottom: 1px solid #ba5;
+	padding: 10px 0px;
+	font-size: 13px;
+	color: #884;
+}
+
+#menu li{
+	margin: 10px 0px 15px 0px;
+}
+
+#menu a{
+	color: #884;
+	padding: 5px;
+}
+
+#menu a:hover{
+	background: #ffb;
+}
+
+.locais{
+	text-decoration: none;
+	color: #dc8;
+	background: #ba5;
+	padding: 5px;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.depoimento{
+	width: 226px;
+	height: 164px;
+	position: absolute;
+	right: 25px;
+	top: 75px;
+}
+
+#area-principal{
+	float: left;
+	width: 50%;
+	background: url(../IMAGENS/bg-area-principal.png) top repeat-x;
+}
+
+#area-lateral{
+	float: right;
+	width: 50%;
+	background: url(../IMAGENS/bg-area-lateral.png) top repeat-x;
+}
+
+.conteudo{
+	width: 90%;
+	margin: 25px;
+}
+
+.conteudo h2{
+	color: #983;
+}
+
+#rodape{
+	clear: both;
+	background: #fff url(../IMAGENS/bg-rodape.png) repeat-x top;
+	padding: 15px;
+	color: #983;
+}
+
+#beneficios li{
+	height: 117px;
+	border-bottom: 1px solid #fec;
+}
+
+#beneficios li:hover{
+	background: #fff;
+}
+
+#beneficios img{
+	float: left;
+	margin: 10px;
+}
+
+#beneficios h2{
+	background: url(../IMAGENS/ornamento.png) no-repeat right center;
+	font-size: 20px;
+}
+
+#beneficios p{
+	font-size: 11px;
+}

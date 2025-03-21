@@ -1,0 +1,117 @@
+/*Padrões*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*ID's*/
+
+#titulo{
+	background-color: darkorange;
+	text-align: center;
+	height: 125px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#tecblog{
+	padding: 25px 0px 0px 0px;
+	margin-bottom: 20px;
+}
+
+/*Fim ID's*/
+
+/*Class's*/
+
+.link-titulo{
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+.tec{
+	color: dimgray;
+	padding: 10px 0px;
+}
+
+.blog{
+	color: white;
+	padding: 10px 0px;
+}
+
+.conteudoesubconteudo{
+	width: 1000px;
+	margin: auto;
+}
+
+.paiconteudo{
+	float: left;
+}
+
+.conteudo{
+	width: 675px;
+	background-color: white;
+	margin-bottom: 25px;
+	padding: 10px 25px;
+}
+
+.paisubconteudo{
+	float: right;
+}
+
+.subconteudo{
+	width: 225px;
+	background-color: white;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.subtituloconteudo{
+	background-color: #ddd;
+	color: #101010;
+	padding: 5px;
+}
+
+.subtitulo{
+	color: darkorange;
+	margin-bottom: 0px;
+}
+
+.data{
+	margin: 0px;
+}
+
+.leiamais{
+	text-decoration: none;
+	color: darkorange;
+}
+
+.leiamais:hover{
+	text-decoration: underline;
+}
+
+.link-titulo:hover{
+	color: darkorange;
+	background-color: white;
+}
+
+.categoria{
+	margin: 1px;
+}
+
+.rodape{
+	text-align: center;
+	background-color: #aaa;
+	margin: auto;
+	padding: 15px;
+	width: 1000px;
+	clear: both;
+}
+
+/*Fim Class's*/
+
+
+
+body{
+	background-color: #ddd;
+}

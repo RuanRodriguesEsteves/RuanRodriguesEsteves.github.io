@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	font-family: Bahnschrift Condensed;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #a50;
+	text-transform: uppercase;
+}
+
+a h1{
+	color: #fff;
+}
+
+body{
+	flex-wrap: wrap;
+	background: url(../IMAGENS/fundo.png) repeat-x #ffe;
+}
+
+header{
+	width: 1100px;
+	margin: 0px auto;
+}
+
+main{
+	width: 1100px;
+	margin: 25px auto;
+}
+
+article{
+	display: inline-block;
+	margin: 25px;
+	width: 300px;
+}
+
+article h4{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color: #060;
+}
+
+article p{
+	margin-bottom: 15px;
+}
+
+aside{
+	float: right;
+	background: #eee;
+	width: 350px;
+}
+
+aside section{
+	margin: 0 0 15px 0;
+}
+
+form{
+	background: #ccb;
+	padding: 15px;
+	border: none;
+}
+
+fieldset h4{
+	color: #a50;
+	margin: 0 0 5px 0;
+	border: none;
+	text-transform: uppercase;
+}
+
+footer{
+	clear: both;
+	border-top: solid #a50 1px;
+	padding: 25px 0;
+	width: 500px;
+	margin: 875px auto 0 auto;
+}
+
+footer ul{
+	display: flex;
+}
+
+footer li{
+	margin: 10px;
+	font-size: 12px;
+}
+
+footer p{
+	text-align: center;
+}
+
+footer span{
+	color: #a50;
+}
+
+#cabecalho{
+	display: flex;
+	justify-content: space-between;
+}
+
+#cabecalho ul{
+	display: flex;
+}
+
+#cabecalho li{
+	margin: 10px;
+	font-size: 13px;
+}
+
+#titulo span{
+	color: #a50;
+}
+
+.item{
+	margin: 25px 0 0 0;
+}
+
+.item a:hover{
+	color: #090;
+	border-bottom: 1px solid #090;
+}
+
+#conteudo{
+	float: left;
+	width: 725px;
+}
+
+#exposicoes li{
+	list-style: disc;
+	padding: 1px;
+}
+
+#exposicoes a{
+	text-transform: none;
+}
+
+#exposicoes a:hover{
+	color: #090;
+}
+
+.leia-mais:hover{
+	color: #090;
+}
+
+.botao{
+	margin: 15px 0 0 0;
+	width: 320px;
+	padding: 10px 50px;
+	font-size: 17px;
+	background: #997;
+	color: #fff;
+	border: none;
+}
+
+#galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#galeria h4{
+	width: 100%;
+	color: #a50;
+	padding: 0 0 0 25px;
+	text-transform: uppercase;
+}
+
+.moldura{
+	width: 120px;
+	height: 120px;
+	background: url(../IMAGENS/fundo-foto.png) no-repeat center;
+	margin: 13px;
+}
+
+.moldura img{
+	padding: 13px;
+}
